@@ -1,0 +1,37 @@
+.sidebar{
+  height: 100vh;
+  padding-top: 300px;
+  text-align: center;
+  background-color: #547980;
+}
+
+.my-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 40px;
+}
+
+.d-md-block{
+  color: aqua;
+  height: 100vh;
+}
+
+.d-md-block a{
+  font-size: 20px;
+  color: orangered;
+}
+
+.d-md-block a:hover{
+  font-size: 20px;
+  color: red;
+}
+
+.content{
+  height: 100vh;
+  background-color: whitesmoke;
+  padding-top: 0px;
+  padding-left: 200px;
+  text-align: left;
+}

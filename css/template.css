@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width : 750px){
+  #horbar{
+    visibility: hidden;
+  }
+}
+
+
+.sidebar{
+  font-weight: bold;
+  position: fixed;
+  height: 100vh;
+  padding-top: 250px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.my-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.d-md-block a{
+  text-align: center;
+  font-size: 17px;
+  color: #547980   ;
+}
+
+.d-md-block a:hover{
+  font-size: 17px;
+  color: #404041;
+  transition: 0.1s;
+}
+
+.content{
+  font-size: 16px;
+  height: 100vh;
+  background-color:white;
+  padding-top: 250px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+}
+
+.content h{
+  color: #41676e;
+}
+
+.content p{
+  color: black;
+}
+
+#cont{
+  opacity: 0.7;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+.linkedin-logo{
+  opacity: 0.7;
+}
+.linkedin-logo:hover{
+  opacity: 1.0;
+  transition: 0.5s;
+}
+
+.github-logo{
+  opacity: 0.7;
+}
+.github-logo:hover{
+  opacity: 1.0;
+  transition: 0.5s;
+}
+
+#exp-block{
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+}
+#exp-block h5{
+  color: #536669;
+}
+#exp-block a{
+  color: #070707;
+}
+.experience h4{
+  color: #41676e;
+}
+
+.experience h5{
+  color: #41676e;
+}
+
+#skills{
+  color: #4b585a;
+  background-color: #bcdfe7;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  width: 200px;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 5px;
+}
